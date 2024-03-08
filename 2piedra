@@ -1,0 +1,22 @@
+#El algoritmo esta planteado de la siguiente manera:
+
+#Versión 1.0
+#1 - Yo elijo una de las tres opciones
+#2 - En base a que mi contrincante elija "piedra" me da un resultado
+
+yoelegi=input("Elige piedra, papel o tijera: ")
+
+print ("tu elegiste: ", yoelegi)
+
+if yoelegi == "piedra":
+    print ("haz empatado")
+else:
+    if yoelegi == "tijera":
+        print ("haz perdido")
+        print ("segui participando")
+        if yoelegi == "papel":
+          print ("haz ganado")
+          print ("¡Felicitaciones!")
+    else:
+      print ("Haz ingresado una palabra que no juega") 
+    
